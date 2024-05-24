@@ -1,0 +1,46 @@
+.page-container {
+    max-width: 600px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера по горизонтали */
+    padding: 20px; /* Внутренний отступ контейнера */
+    border: 1px solid #0c0d10; /* Граница контейнера */
+    border-radius: 5px; /* Закругление углов контейнера */
+    background-color: #f9f9f9; /* Цвет фона контейнера */
+}
+
+.page-title {
+    font-size: 24px; /* Размер шрифта заголовка */
+    color: #333; /* Цвет текста заголовка */
+    margin-bottom: 10px; /* Внешний отступ снизу заголовка */
+}
+
+.time-info p {
+    font-size: 18px; /* Размер шрифта текста */
+    color: #666; /* Цвет текста */
+    margin-bottom: 5px; /* Внешний отступ снизу текста */
+}
+/* PageComponent.css */
+
+.page-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.time-info p {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.time-info p:last-child {
+    margin-bottom: 0;
+}
